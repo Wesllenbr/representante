@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Representante</title>
 </head>
 
 <body>
-    <header>
+    <header class="header container">
         <div class="logo">
             <img src="" alt="" class="logo-icon">
         </div>
@@ -20,23 +20,44 @@
     </header>
 
     <main>
-        <h1 class="big-title">Organize as distribuições de comida na escola</h1>
-
-        <form action="">
-            <div class="form-item">
-                <div class="horario">
-                    <label>Horario</label>
-                    <p>Café da manhã</p>
+        <div class="main-content container">
+            <h1 class="big-title">Organize as distribuições de comida na escola</h1>
+            
+            <form action="">
+                <div class="form-data">
+                    <div class="horario">
+                        <label class="horario-label">Horario</label>
+                        <p>Café da manhã</p>
+                    </div>
+            
+                    <div class="numero">
+                        <label for="numbers">Numero de pessoas</label>
+                        <input id="numbers" name="numeros" type="number" min="1" max="50" value="0">
+                    </div>
+                    <div class="horario">
+                        <label class="horario-label">Horario</label>
+                        <p>Café da manhã</p>
+                    </div>
+            
+                    <div class="numero">
+                        <label for="numbers">Numero de pessoas</label>
+                        <input id="numbers" name="numeros" type="number" min="1" max="50" value="0">
+                    </div>
+                    <div class="horario">
+                        <label class="horario-label">Horario</label>
+                        <p>Café da manhã</p>
+                    </div>
+            
+                    <div class="numero">
+                        <label for="numbers">Numero de pessoas</label>
+                        <input id="numbers" name="numeros" type="number" min="1" max="50" value="0">
+                    </div>
+                 
+                 
                 </div>
-                
-                <div class="numero">
-                    <label for="numbers">Numero de pessoas</label>
-                    <input id="numbers" name="numeros" type="number" min="1" max="50" value="0">
-                </div>
-
-            </div>
-        </form>
-
+                <button type="submit" class="btn-primary btn-primary--pressed">Enviar</button>
+            </form>
+        </div>
     </main>
 </body>
 
